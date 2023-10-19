@@ -15,7 +15,17 @@ jobs:
     name: Job 2 don't delete
     steps: []
     subgraphs: []
-locations: {}
+locations:
+  SRC:
+    mappingDefinitions:
+      "16":
+        database: BUCKLEY
+        schema: WORKDEV
+  WORK:
+    mappingDefinitions:
+      "16":
+        database: BUCKLEY
+        schema: WORKPROD
 macros: {}
 packages: {}
 projects: {}
